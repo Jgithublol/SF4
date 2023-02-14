@@ -1,0 +1,8 @@
+wood colors
+main - #5E4E3B
+highlight - #6F5C46
+lowlight - #45392B
+metal
+main - #CAC9C2
+highlight - #E3E1D9
+lowlight - #A19D94
