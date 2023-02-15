@@ -1,3 +1,4 @@
+outline - #474644
 wood colors
 main - #5E4E3B
 highlight - #6F5C46
