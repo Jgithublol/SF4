@@ -6,15 +6,12 @@ public class MoblieMove : MonoBehaviour
 {
 
     int moblieInput = 0;
+    int keyboardInput;
 
     [SerializeField]
     float moveSpeed = 1.0f;
     Rigidbody2D rb;
     Animator ac;
-
-    [SerializeField]
-    float jumpSpeed = 1.0f;
-    bool grounded = false;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +24,8 @@ public class MoblieMove : MonoBehaviour
     void Update()
     {
         int moveDir = 0;
-        int keyboardInput = (int)Input.GetAxisRaw("Horizontal");
+        keyboardInput = (int)Input.GetAxisRaw("Horizontal");
+        keyboardInput = (int)Input.GetAxisRaw("Vertical");
 
         moveDir = keyboardInput + moblieInput;
         moveDir = Mathf.Clamp(moveDir, -1, 1);
@@ -35,10 +33,6 @@ public class MoblieMove : MonoBehaviour
         velocity.x = moveDir * moveSpeed;
         rb.velocity = velocity;
         ac.SetFloat("xInput", moveDir);
-        if (Input.GetButtonDown("Jump"))
-        {
-            Jump();
-        }
 
         if (moveDir > 0)
         {
@@ -60,36 +54,4 @@ public class MoblieMove : MonoBehaviour
         moblieInput = direction;
     }
 
-    public void Jump()
-    {
-        if (grounded)
-        {
-            rb.AddForce(new Vector2(0, 100 * jumpSpeed));
-            grounded = false;
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-       if (collision.gameObject.tag == "Ground")
-        {
-            grounded = true;
-        } 
-    }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            grounded = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            grounded = false;
-        }
-    }
 }
