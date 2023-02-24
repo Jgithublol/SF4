@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9e5e44b96953fc24393f1aed2f24ba93
+guid: 6cc292b38952a684f8a9913e21136ba7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,175 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Playermobile_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 45
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a6c26c534ab0df46b65dace01994b70
-      internalID: -635975577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_1
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 45
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bad0b01586b672c4a8af1bbea51b84ff
-      internalID: -1273109369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_2
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 45
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf9bff020923eee4aacd7b6c9a471e03
-      internalID: 1279140380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_3
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 45
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6356cf3bee59ce4185e0e59afd3a26b
-      internalID: 854642629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 30
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21584e6f67688434bb543f70bfcfbeb0
-      internalID: -1915688944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_5
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 30
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 938c6cc0b624e3f49877576fee3a4970
-      internalID: 957332061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_6
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 30
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43c90070646c47d49906190eb6b20d06
-      internalID: -1873200276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_7
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 30
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92c2220596bfe02469624297a207bcac
-      internalID: -1634378824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_8
+      name: Playermobile left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -301,14 +133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6c2a2f294870e54ca22a2a032503961
-      internalID: -1368828193
+      spriteID: 2054e245aaa951f4ea85308a05b21b79
+      internalID: -1477464938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Playermobile_9
+      name: Playermobile left_1
       rect:
         serializedVersion: 2
         x: 12
@@ -322,14 +154,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9969fe896ac308e4791d206ff5b360d3
-      internalID: 1082501647
+      spriteID: 336b5c6858d0540408283c2301a64a9b
+      internalID: -696868622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Playermobile_10
+      name: Playermobile left_2
       rect:
         serializedVersion: 2
         x: 24
@@ -343,35 +175,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6507323ab75701418b36b7ab1c97d4a
-      internalID: -1144527093
+      spriteID: 34d494b9920e7f84f9a0f3cd1fd46786
+      internalID: -1583085660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Playermobile_11
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 15
-        width: 12
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b2a0f019ff072942ba448707176d7c8
-      internalID: -1876670119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Playermobile_12
+      name: Playermobile left_3
       rect:
         serializedVersion: 2
         x: 0
@@ -385,8 +196,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 786040e7adfcb584f90ee8b8ee1380b6
-      internalID: 1015548804
+      spriteID: 822c27db164b04b41a82e6e6e2081bba
+      internalID: -1833029174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Playermobile left_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96931c0ce73db7844ac4a59af86397be
+      internalID: 741986816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Playermobile left_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2461af48451401947ac23b5a68e984a0
+      internalID: 2046169819
       vertices: []
       indices: 
       edges: []
@@ -402,19 +255,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Playermobile_10: -1144527093
-      Playermobile_1: -1273109369
-      Playermobile_0: -635975577
-      Playermobile_4: -1915688944
-      Playermobile_9: 1082501647
-      Playermobile_7: -1634378824
-      Playermobile_3: 854642629
-      Playermobile_11: -1876670119
-      Playermobile_8: -1368828193
-      Playermobile_6: -1873200276
-      Playermobile_5: 957332061
-      Playermobile_2: 1279140380
-      Playermobile_12: 1015548804
+      Playermobile left_0: -1477464938
+      Playermobile left_4: 741986816
+      Playermobile left_5: 2046169819
+      Playermobile left_1: -696868622
+      Playermobile left_3: -1833029174
+      Playermobile left_2: -1583085660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
