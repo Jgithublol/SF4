@@ -7,14 +7,14 @@ public class LevelSelect : MonoBehaviour
 {
     public void BabyModeButton()
     {
-        SceneManager.LoadScene("Big Dungeon");
+        SceneManager.LoadScene("baby");
     }
     public void NormieModeButton()
     {
-        SceneManager.LoadScene("Normal Dungeon");
+        SceneManager.LoadScene("Normie");
     }
     public void HardModeButton()
     {
-        SceneManager.LoadScene("Small Dungeon");
+        SceneManager.LoadScene("hard");
     }
 }
