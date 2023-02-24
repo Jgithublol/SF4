@@ -5,36 +5,33 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class playerHealthUI : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
-    public int health = 1;
+
+    public int health = 5;
     public TextMeshProUGUI healthText;
-    // Start is called before the first frame update
-    void Start()
-    {
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
         healthText.text = "" + health;
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         string otherTag = collision.gameObject.tag;
-        if (otherTag == "Damage")
+        if (otherTag == "Enemy")
         {
             health--;
             if (health <= 0)
             {
-                SceneManager.LoadScene("GameOver");
+                SceneManager.LoadScene("Loser");
             }
         }
     }
 
     public void LoadGameOver()
     {
-        SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("Loser");
     }
 }
+
