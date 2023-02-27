@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Windows;
-// MADE BY TOME P. 
+// definitely made by j 
+
 public class MACmovementScroit : MonoBehaviour
 {
+
     int mobileInputX = 0;
     int mobileInputY = 0;
-
 
     [SerializeField]
     float moveSpeed = 1.0f;
@@ -19,21 +20,19 @@ public class MACmovementScroit : MonoBehaviour
 
     Vector2 movement;
 
-
     private Vector3 currentInputVector;
     private Vector3 smoothInputVelocity;
-
-
 
     void Start()
     {
 
         rb = GetComponent<Rigidbody2D>();
-    }
 
+    }
 
     void Update()
     {
+
         float xInput = 0;
         float yInput = 0;
 
@@ -55,7 +54,6 @@ public class MACmovementScroit : MonoBehaviour
 
         GetComponent<Rigidbody2D>().velocity = currentInputVector * moveSpeed;
 
-
     }
 
     public void UpdateMoveDirectionY(int direction)
@@ -68,5 +66,4 @@ public class MACmovementScroit : MonoBehaviour
         Debug.Log(mobileInputX);
     }
 
-    //https://www.youtube.com/watch?v=dQw4w9WgXcQ
 }

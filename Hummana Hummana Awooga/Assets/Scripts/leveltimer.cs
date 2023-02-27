@@ -24,7 +24,7 @@ public class leveltimer : MonoBehaviour
 
         if (startingTime <= 0)
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("Win Screen");
         }
     }
 }
