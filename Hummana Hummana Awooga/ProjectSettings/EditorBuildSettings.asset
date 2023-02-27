@@ -13,21 +13,6 @@ EditorBuildSettings:
     guid: 577270b937efa8f4e8faa9398a385230
   - enabled: 1
     path: Assets/Scenes/Levels/baby.unity
-    guid: b7484f5d62634f446bd00a6cf6637bd6
-  - enabled: 1
-    path: Assets/Scenes/Levels/normie.unity
-    guid: 803dac57dceee2f4eba37ad4050dc086
-  - enabled: 1
-    path: Assets/Scenes/Levels/hard.unity
-    guid: 2770091564f662d409538b4de4844e10
-  - enabled: 1
-    path: Assets/Scenes/Loser.unity
-    guid: 9bb0fab153e350a4c8bc5c5a45490d5c
-  - enabled: 1
-    path: Assets/Scenes/Win Screen.unity
-    guid: 230875e6986054246870c32b6ca9a63a
-  - enabled: 1
-    path: Assets/Scenes/Levels/baby.unity
     guid: 868f847e4f0b3cb46b92db02dbe767f8
   - enabled: 1
     path: Assets/Scenes/Levels/hard.unity
@@ -35,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/normie.unity
     guid: 7e01c35778819a843b1ce422f9170e73
+  - enabled: 1
+    path: Assets/Scenes/Loser.unity
+    guid: fe220899bb8fa424494f58048bbd69c4
+  - enabled: 1
+    path: Assets/Scenes/Win Screen.unity
+    guid: 230875e6986054246870c32b6ca9a63a
   m_configObjects: {}
