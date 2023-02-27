@@ -14,7 +14,10 @@ public class MACmovementScroit : MonoBehaviour
     float moveSpeed = 1.0f;
     public float jumpSpeed = 1.0f;
     public float smoothInputSpeed = .2f;
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
+    public Animator animator;
+
+    Vector2 movement;
 
 
     private Vector3 currentInputVector;
@@ -40,6 +43,10 @@ public class MACmovementScroit : MonoBehaviour
 
         xInput = mobileInputX + keyboardInputX;
         yInput = mobileInputY + keyboardInputY;
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
 
         Vector3 moveDir = new Vector3(xInput, yInput);

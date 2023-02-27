@@ -5,6 +5,9 @@ using UnityEngine;
 public class JudahMovemetScript : MonoBehaviour
 {
 
+    int mobileInputX = 0;
+    int mobileInputY = 0;
+
     public float moveSpeed = 5f;
 
     public Rigidbody2D rb;
@@ -26,5 +29,14 @@ public class JudahMovemetScript : MonoBehaviour
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+    public void UpdateMoveDirectionY(int direction)
+    {
+        mobileInputY = direction;
+    }
+    public void UpdateMoveDirectionX(int direction)
+    {
+        mobileInputX = direction;
+        Debug.Log(mobileInputX);
     }
 }
